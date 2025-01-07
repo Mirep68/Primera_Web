@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+h1{font-size: 25px;}
+h2{font-size: 22px;}
+h3{font-size: 20px;}
+p{font-size: 15px;}
+ul{list-style: none;}
+li{font-size: 22px;}
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 114, 255);
+}
+button:hover{
+    background-color: rgb(42, 138, 255);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("media/HeaverBack.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+header .logo{
+    margin: 0;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: rgb(34, 114, 255);
+    font-size: 25px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    color: rgb(34, 114, 255);
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("media/Banner.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+#banner h1{
+    color: White;
+    font-size: 60px;
+    font-weight: bolt;
+}
+
+#banner button{
+    font-size: 30px;
+}
+
+#somos-exclusivos{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("media/BackSomos.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+#somos-exclusivos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#somos-exclusivos .container h2{
+    color: rgb(34, 114, 255);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 20px;
+}
+
+#somos-exclusivos .container p{
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+#mejores-games{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url("media/Mejores.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#mejores-games h2{
+    margin-top: 0px;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(34, 114, 255);
+
+}
+
+#mejores-games p{
+    display: none;
+}
+
+#mejores-games .juego{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.juego:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("media/GTAVI.jpg");
+}
+
+.juego:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("media/Minecraft-2.jpg");
+}
+
+.juego:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url("media/the-last-of-us-parte-iii.jpg");
+}
+
+#caracteristicas{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 200px 12px;
+}
+
+#caracteristicas .container{
+    text-align: center;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#juega-ya{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    )
+    ,url("media/BetterGames.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+#juega-ya h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 20px 30px;
+}
+
+#juega-ya button{
+    font-size: 35px;
+}
+
+footer{
+    background-color: black;
+    padding: 15px 30px;
+    color: rgba(255, 255, 255, 0.599);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 750px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 25px;
+    }
+
+    #somos-exclusivos .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-exclusivos .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-exclusivos h2{
+        margin-top: 0;
+    }
+
+    #somos-exclusivos .img-container{
+        background-image: url("media/Exclusive\ Games.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px;
+    }
+
+    #mejores-games .juegos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #mejores-games h3{
+        margin-top: 0;
+    }
+
+    #mejores-games .juego{
+        padding: 120px 160px;
+    }   
+
+    #caracteristicas .img-lista{
+        background-image: url("media/gamer.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 700px;
+    }
+
+    #caracteristicas .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #caracteristicas ul{
+        margin-top: 0;
+    }
+
+    #caracteristicas .lista{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
